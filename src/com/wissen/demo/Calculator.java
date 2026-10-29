@@ -2,7 +2,7 @@ package com.wissen.demo;
 
 public class Calculator {
     public static void main(String[] args) {
-    	//System.out.println("Starting Calculator......"); //Comment uncomment to test github webhook
+    	System.out.println("Starting Calculator......"); //Comment uncomment to test github webhook
         if (args.length != 3) {
             System.out.println("Usage: java Calculator <num1> <operator> <num2>");
             System.exit(1);
